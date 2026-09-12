@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Student Attendance</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<div class="student-box">
+
+    <h1>📋 Student Attendance</h1>
+
+    <h2 id="studentName"></h2>
+
+    <p id="studentRoll"></p>
+
+    <button class="present"
+            onclick="markAndNext('PRESENT')">
+        ✅ PRESENT
+    </button>
+
+    <button class="absent"
+            onclick="markAndNext('ABSENT')">
+        ❌ ABSENT
+    </button>
+    <br><br>
+
+    <button onclick="nextStudent()">
+        ➡️ TEACHER FORWARD
+    </button>
+
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
