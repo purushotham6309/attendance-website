@@ -62,7 +62,7 @@ const students = [
 
     {
         roll: "26HEU08R103",
-        name: "BOJJETI REDDY KUMAR"
+        name: "BOJJETI DHEERAJ KUMAR"
     },
 
     {
